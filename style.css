@@ -1,1 +1,81 @@
-
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Top Image Section */
+  .top-image {
+    width: 100%;
+    max-width: 1446px;
+    height: 489px;
+    background: url('<path-to-image>') lightgray 50% / cover no-repeat;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .top-image h1 {
+    color: #000;
+    font-family: 'Loubag', sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    width: 946px;
+    height: 42px;
+    flex-shrink: 0;
+  }
+  
+  .nav a {
+    color: #000;
+    font-family: 'Agrandir', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: normal;
+  }
+  
+  /* Section Styling */
+  #nousconnaitre, #oeuvres, #expositions {
+    width: 100%;
+    max-width: 1446px;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  #galerie, #artiste, #exposition1, #exposition2 {
+    margin: 10px 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+  }
+  
+  #galerie {
+    background-image: url('<path-to-gallery-image>');
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Adjust as needed */
+  }
+  
+  #artiste, #exposition1, #exposition2 {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    height: 300px; /* Adjust as needed */
+  }
