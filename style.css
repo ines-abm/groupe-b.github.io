@@ -1,4 +1,10 @@
 /* General reset */
+img[src]
+    {
+    width: 1446px;
+    height: 489px;
+    flex-shrink: 0;
+    }
 * {
     margin: 0;
     padding: 0;
