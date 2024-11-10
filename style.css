@@ -19,13 +19,19 @@
   font-weight: 400;
   font-style: normal;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-  /* Top Image Section */
   .top-image {
     width: 100%;
     max-width: 1446px;
-    height: 489px;
-    background: url('<path-to-image>') lightgray 50% / cover no-repeat;
+    height: 325px;
+    background: url('path-to-image') lightgray 50% / cover no-repeat;
+    background-size: cover;
+    background-position: center;
     flex-shrink: 0;
     display: flex;
     flex-direction: column;
@@ -35,9 +41,13 @@
   
   .top-image h1 {
     color: #000;
+    background-color: #FAD40B;
     font-family: 'Loubag', sans-serif;
     font-size: 48px;
-    font-weight: 800;
+    width: 575px;
+    height: 66px;
+    top: 0;
+    left 0;
     margin-bottom: 20px;
     text-align: center;
   }
@@ -45,11 +55,20 @@
   .nav {
     display: flex;
     justify-content: space-around;
-    width: 946px;
-    height: 42px;
+    flex-direction: row;
+    width: auto;
+    height: 50px;
     flex-shrink: 0;
+    margin-bottom: 20px;
   }
-  
+
+  .nav ul {
+    padding: 30px;
+    display: flex;
+    list-style-type: none;
+    gap: 100px;
+  }  
+
   .nav a {
     color: #000;
     font-family: 'Agrandir', sans-serif;
