@@ -218,7 +218,6 @@ body {
   .rs {
     display: flex;
     flex-direction: row;
-    justify-content: center;
   }
   
   #artiste, #exposition1, #exposition2 {
