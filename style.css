@@ -1,4 +1,14 @@
-/* General reset */
+   /* General reset */
+
+ body {
+  font-family: 'Loubag', sans-serif;
+}
+.bubblegum-sans-regular {
+  font-family: 'Loubag';
+  font-weight: 400;
+  font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,27 +16,15 @@
   }
   
   body {
-    font-family: Arial, sans-serif;
     color: #333;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;  
-  }
-
-  .bubblegum-sans-regular {
-  font-family: 'Loubag';
-  font-weight: 400;
-  font-style: normal;
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    text-align: center;
   }
 
   .top-image {
-      width: 100%;
+    width: 100%;
     max-width: 1446px;
     height: 325px;
     background-image: url('images/banniere.png');
@@ -49,6 +47,7 @@
     top: 0;
     left 0;
     margin-bottom: 20px;
+    margin-top: 40px;
     text-align: center;
   }
   
