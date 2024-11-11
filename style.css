@@ -1,3 +1,4 @@
+/* General reset */
 
 body {
   font-family: 'Loubag', sans-serif;
@@ -13,7 +14,7 @@ body {
     padding: 0;
     box-sizing: border-box;
   }
-  
+
   body {
     color: #333;
     display: flex;
@@ -21,7 +22,7 @@ body {
     align-items: center;
     text-align: center;
   }
-  
+
   .top-image {
     width: 100%;
     max-width: 1446px;
@@ -35,7 +36,7 @@ body {
     justify-content: center;
     align-items: center;
   }
-  
+
   .top-image h1 {
     color: #000;
     background-color: #FAD40B;
@@ -49,7 +50,7 @@ body {
     margin-top: 40px;
     text-align: center;
   }
-  
+
   .nav {
     display: flex;
     justify-content: space-around;
@@ -59,7 +60,7 @@ body {
     flex-shrink: 0;
     margin-bottom: 20px;
   }
-  
+
   .nav ul {
     padding: 30px;
     display: flex;
@@ -75,7 +76,7 @@ body {
     text-decoration: none;
     line-height: normal;
   }
-  
+
   /* Section Styling */
   #nousconnaitre, #oeuvres, #expositions {
     width: 100%;
@@ -83,14 +84,14 @@ body {
     padding: 20px;
     margin: 20px 0;
   }
-  
+
   #galerie, #artiste, #exposition1, #exposition2 {
     margin: 10px 0;
     padding: 20px;
     background-color: #f0f0f0;
     border: 1px solid #ccc;
   }
-  
+
   .galerie {
     display: flex; 
     align-items: center; 
@@ -133,7 +134,8 @@ body {
    margin: 40px 10%;
   }
 
-
+.artiste_desc {
+    text-align: center;
   .insta, .be {
     width: 30px;
 
@@ -143,7 +145,18 @@ body {
     width: 467px;
     height: auto;
   }
- 
+
+   .tab1, .tab2 {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+  }
+
+
   .tab1, .tab2 {
     display: flex;
     flex-wrap: wrap;
@@ -153,7 +166,7 @@ body {
 
   .oeuvres {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1200px; 
     margin: 0 auto;
   }
 
@@ -207,9 +220,8 @@ body {
   .rs {
     display: flex;
     flex-direction: row;
-    justify-content: center; 
   }
-  
+
   #artiste, #exposition1, #exposition2 {
     background-color: #fff;
     border: 2px solid #ddd;
@@ -252,5 +264,3 @@ body {
     border-radius: 10%;
     height: 20px;
   }
-
-
