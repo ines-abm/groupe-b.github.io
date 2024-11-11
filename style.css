@@ -134,9 +134,6 @@ body {
    margin: 40px 10%;
   }
 
-.artiste_desc {
-    text-align: center;
-
   .insta, .be {
     width: 30px;
 
@@ -221,6 +218,7 @@ body {
   .rs {
     display: flex;
     flex-direction: row;
+    justify-content: center;
   }
   
   #artiste, #exposition1, #exposition2 {
