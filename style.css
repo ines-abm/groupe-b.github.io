@@ -144,9 +144,10 @@ body {
     height: auto;
   }
  
-  .tab1, .tab2 {
+   .tab1, .tab2 {
     display: flex;
     flex-direction: row;
+    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: center;
     padding: 5px;
@@ -168,6 +169,7 @@ body {
 
   .expo {
       display: flex;
+      /* width: 50%; */
       gap: 20px;
       align-items: center;
       justify-content: center;
