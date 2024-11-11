@@ -49,7 +49,6 @@
     top: 0;
     left 0;
     margin-bottom: 20px;
-    margin-top: 40px;  
     text-align: center;
   }
   
@@ -95,144 +94,14 @@
   }
   
   #galerie {
-   display: flex; 
-    align-items: center; 
-    gap: 70px; 
-    margin: 40px 10%;
-    margin-bottom: 40px;
-    margin-top: 70px;
+    background-image: url('<path-to-gallery-image>');
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Adjust as needed */
   }
-
-.element {
-    width: 467px; 
-    height: 276px;
-}
-
-.galerie_desc {
-    max-width: 507px; 
-}
-
-.notre-galerie {
-    font-family: 'Loubag';
-    font-weight: 400;
-    color: #000000;
-    font-size: 24px;
-    line-height: normal;
-    margin-bottom: 10px;
-}
-
-.galerie_desc p {
-    font-family: 'Loubag';
-    font-weight: 400;
-    color: #000000;
-    font-size: 16px;
-    text-align: center
-  }
-
-.artiste {
-    display: flex;
-   align-items: center;
-   gap: 20px;
-   margin: 40px 10%;
-  }
-
-.insta, .be {
-    width: 30px;
-  }
-
-.img_artiste {
-    width: 467px;
-    height: auto;
-  }
-
-.tab1, .tab2 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
-    margin: 5px;
-  }
-
-.alltab{
-    padding: 10px;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
-  }
-
-.tableau img{
-    width: 253px;
-    padding: 5px;
-    margin: 5px;
-  }
-
-.expo {
-      display: flex;
-      gap: 20px;
-      align-items: center;
-      justify-content: center;
-  }
-
-.exposition {
-     width: 50%; 
-      box-sizing: border-box;
-      align-items: center;
-      justify-content: center;
-  }
-
-.expositions2 .expo_txt{
-    margin-bottom: 20px;
-  }
-
-.expo_img {
-      width: 400px; 
-    }
-
-.rs {
-    display: flex;
-    flex-direction: row;
-  }
-
+  
   #artiste, #exposition1, #exposition2 {
     background-color: #fff;
     border: 2px solid #ddd;
-    height: 300px;
-  }
-
-footer {
-    background-color: #ACCEFF;
-    width: 100%;
-    height: 400px;
-  }
-
- .carte {
-    width: 300px;
-  }
-
-.bas {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: end;
-  }
-
-.contact{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-
-.adresse {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-  }
-
-.form_style{
-    background-color: #FAD40B;
-    border-radius: 10%;
-    height: 20px;
+    height: 300px; /* Adjust as needed */
   }
