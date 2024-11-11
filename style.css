@@ -27,7 +27,7 @@ body {
     width: 100%;
     max-width: 1446px;
     height: 325px;
-    background-image: url('image/bannière.png');
+    background-image: url('image/banniere.png');
     background-size: cover;
     background-position: center;
     flex-shrink: 0;
