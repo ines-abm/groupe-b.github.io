@@ -1,256 +1,288 @@
-/* General reset */
-body {
-  font-family: 'Loubag', sans-serif;
-}
-.bubblegum-sans-regular {
-  font-family: 'Loubag';
-  font-weight: 400;
-  font-style: normal;
-}
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-  
-  body {
-    color: #333;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .top-image {
-    width: 100%;
-    max-width: 1446px;
-    height: 325px;
-    background-image: url('images/bannière.png');
-    background-size: cover;
-    background-position: center;
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .top-image h1 {
-    color: #000;
-    background-color: #FAD40B;
-    font-family: 'Loubag';
-    font-size: 48px;
-    width: 575px;
-    height: 66px;
-    top: 0;
-    left: 0;
-    margin-bottom: 20px;
-    margin-top: 40px;
-    text-align: center;
-  }
-  
-  .nav {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    width: auto;
-    height: 50px;
-    flex-shrink: 0;
-    margin-bottom: 20px;
-  }
-  
-  .nav ul {
-    padding: 30px;
-    display: flex;
-    list-style-type: none; 
-    gap: 100px;
+
+body {
+  font-family: 'Loubag', sans-serif;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-  .nav a {
-    color: #000;
-    font-family:'Loubag';
-    font-size: 20px;
-    font-weight: 700;
-    text-decoration: none;
-    line-height: normal;
-  }
-  
-  /* Section Styling */
-  #nousconnaitre, #oeuvres, #expositions {
-    width: 100%;
-    max-width: 1446px;
-    padding: 20px;
-    margin: 20px 0;
-  }
-  
-  #galerie, #artiste, #exposition1, #exposition2 {
-    margin: 10px 0;
-    padding: 20px;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-  }
-  
-  .galerie {
-    display: flex; 
-    align-items: center; 
-    gap: 70px; 
-    margin: 40px 10%;
-    margin-bottom: 40px;
-    margin-top: 70px;
-  }
-
-.element {
-    width: 467px; 
-    height: 276px;
+.top-image {
+  width: 100%;
+  max-width: 1446px;
+  height: 325px;
+  background-image: url('images/bannière.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.galerie_desc {
-    max-width: 507px; 
+.top-image h1 {
+  color: #000;
+  background-color: #FAD40B;
+  font-size: 48px;
+  width: 575px;
+  height: 66px;
+  margin: 40px 0 20px;
 }
 
-.notre-galerie {
-    font-family: 'Loubag';
-    font-weight: 400;
-    color: #000000;
-    font-size: 24px;
-    line-height: normal;
-    margin-bottom: 10px;
+.nav {
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+  height: 50px;
+  margin-bottom: 20px;
 }
 
-.galerie_desc p {
-    font-family: 'Loubag';
-    font-weight: 400;
-    color: #000000;
-    font-size: 16px;
-    text-align: center
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 100px;
+  padding: 30px;
+}
+
+.nav a {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* Sections principales */
+#nousconnaitre, #oeuvres, #expositions {
+  width: 100%;
+  max-width: 1446px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+/* Galerie et artiste */
+.galerie, .artiste {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  margin: 70px 10% 40px;
+}
+
+.element, .img_artiste {
+  width: 467px;
+  height: auto;
+}
+
+/* Œuvres */
+.oeuvres {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.alltab, .tab1, .tab2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tableau img {
+  width: 400px;
+  padding: 5px;
+  margin: 5px;
+}
+
+/* Expositions */
+.expo {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.exposition {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.expo_img {
+  width: 400px;
+}
+
+/* Pied de page */
+footer {
+  background-color: #ACCEFF;
+  width: 100%;
+  height: 400px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+}
+
+.carte {
+  width: 300px;
+}
+
+.bas {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+/* Formulaire */
+.form_style {
+  background-color: #FAD40B;
+  border-radius: 10%;
+  height: 20px;
+}
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
 
-  .artiste {
-    display: flex;
-   align-items: center;
-   gap: 20px;
-   margin: 40px 10%;
-  }
+body {
+  font-family: 'Loubag', sans-serif;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 
+.top-image {
+  width: 100%;
+  max-width: 1446px;
+  height: 325px;
+  background-image: url('images/bannière.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  .insta, .be {
-    width: 30px;
+.top-image h1 {
+  color: #000;
+  background-color: #FAD40B;
+  font-size: 48px;
+  width: 575px;
+  height: 66px;
+  margin: 40px 0 20px;
+}
 
-  }
+.nav {
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+  height: 50px;
+  margin-bottom: 20px;
+}
 
-  .img_artiste {
-    width: 467px;
-    height: auto;
-  }
- 
-  .tab1, .tab2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-  }
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 100px;
+  padding: 30px;
+}
 
-  .oeuvres {
-    width: 100%;
-    max-width: 1200px; /* Ajustez selon vos besoins */
-    margin: 0 auto;
-  }
+.nav a {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
 
-  .tab1, .tab2 {
-    display: flex;
-    flex-direction: row;
-    /* flex-wrap: wrap; */
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
-    margin: 5px;
-  }
+/* Sections principales */
+#nousconnaitre, #oeuvres, #expositions {
+  width: 100%;
+  max-width: 1446px;
+  padding: 20px;
+  margin: 20px 0;
+}
 
-  .alltab{
-    padding: 10px;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
-  }
+/* Galerie et artiste */
+.galerie, .artiste {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  margin: 70px 10% 40px;
+}
 
-  .tableau img{
-    width: 400px;
-    padding: 5px;
-    margin: 5px;
-  }
+.element, .img_artiste {
+  width: 467px;
+  height: auto;
+}
 
-  .expo {
-      display: flex;
-      /* width: 50%; */
-      gap: 20px;
-      align-items: center;
-      justify-content: center;
-  }
+/* Œuvres */
+.oeuvres {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
-  .exposition {
-     width: 50%; 
-      box-sizing: border-box;
-      align-items: center;
-      justify-content: center;
-  }
+.alltab, .tab1, .tab2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-  .expositions2 .expo_txt{
-    margin-bottom: 20px;
-  }
+.tableau img {
+  width: 400px;
+  padding: 5px;
+  margin: 5px;
+}
 
-  .expo_img {
-      width: 400px; 
+/* Expositions */
+.expo {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
 
-    }
+.exposition {
+  width: 50%;
+  box-sizing: border-box;
+}
 
-  .rs {
-    display: flex;
-    flex-direction: row;
-    justify-content: center; /* Centre les éléments horizontalement */
-  }
-  
-  #artiste, #exposition1, #exposition2 {
-    background-color: #fff;
-    border: 2px solid #ddd;
-    height: 300px; 
-  }
+.expo_img {
+  width: 400px;
+}
 
-  footer {
-    background-color: #ACCEFF;
-    width: 100%;
-    height: 400px;
-  }
+/* Pied de page */
+footer {
+  background-color: #ACCEFF;
+  width: 100%;
+  height: 400px;
+}
 
-  .carte {
-    width: 300px;
-  }
+.contact {
+  display: flex;
+  justify-content: space-around;
+}
 
-  .bas {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: end;
-  }
+.carte {
+  width: 300px;
+}
 
-  .contact{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
+.bas {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
 
-  .adresse {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-  }
-
-  .form_style{
-    background-color: #FAD40B;
-    border-radius: 10%;
-    height: 20px;
-  }
-
-
+/* Formulaire */
+.form_style {
+  background-color: #FAD40B;
+  border-radius: 10%;
+  height: 20px;
+}
