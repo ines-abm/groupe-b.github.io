@@ -17,8 +17,7 @@ body {
   width: 100%;
   max-width: 1446px;
   height: 325px;
-  background-image: url("image/banniere.png");
-  background-size: cover;
+  background-image: url('image/banniere.png');
   background-position: center;
   display: flex;
   flex-direction: column;
