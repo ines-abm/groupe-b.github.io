@@ -1,238 +1,367 @@
 /* General reset */
 
 body {
-  font-family: 'Loubag', sans-serif;
-}
-.bubblegum-sans-regular {
-  font-family: 'Loubag';
-  font-weight: 400;
-  font-style: normal;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    font-family: 'Loubag', sans-serif;
   }
-
-  body {
-    color: #333;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .top-image {
-    width: 100%;
-    max-width: 1446px;
-    height: 325px;
-    background-image: url('image/banniere.png');
-    background-size: cover;
-    background-position: center;
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .top-image h1 {
-    color: #000;
-    background-color: #FAD40B;
-    font-family: 'Loubag';
-    font-size: 48px;
-    width: 575px;
-    height: 66px;
-    top: 0;
-    left: 0;
-    margin-bottom: 20px;
-    margin-top: 40px;
-    text-align: center;
-  }
-
-  .nav {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    width: auto;
-    height: 50px;
-    flex-shrink: 0;
-    margin-bottom: 20px;
-  }
-
-  .nav ul {
-    padding: 30px;
-    display: flex;
-    list-style-type: none; 
-    gap: 100px;
-}
-
-  .nav a {
-    color: #000;
-    font-family:'Loubag';
-    font-size: 20px;
-    font-weight: 700;
-    text-decoration: none;
-    line-height: normal;
-  }
-
-  /* Section Styling */
-  #nousconnaitre, #oeuvres, #expositions {
-    width: 100%;
-    max-width: 1446px;
-    padding: 20px;
-    margin: 20px 0;
-  }
-
-  #galerie, #artiste, #exposition1, #exposition2 {
-    margin: 10px 0;
-    padding: 20px;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-  }
-
-  .galerie {
-    display: flex; 
-    align-items: center; 
-    gap: 70px; 
-    margin: 40px 10%;
-    margin-bottom: 40px;
-    margin-top: 70px;
-  }
-
-.element {
-    width: 467px; 
-    height: 276px;
-}
-
-.galerie_desc {
-    max-width: 507px; 
-}
-
-.notre-galerie {
+  .bubblegum-sans-regular {
     font-family: 'Loubag';
     font-weight: 400;
-    color: #000000;
-    font-size: 24px;
-    line-height: normal;
-    margin-bottom: 10px;
-}
-
-.galerie_desc p {
-    font-family: 'Loubag';
-    font-weight: 400;
-    color: #000000;
-    font-size: 16px;
-    text-align: center
+    font-style: normal;
   }
-
-  .artiste {
-    display: flex;
-   align-items: center;
-   gap: 20px;
-   margin: 40px 10%;
-  }
-
-  .insta, .be {
-    width: 30px;
-
-  }
-
-  .img_artiste {
-    width: 467px;
-    height: auto;
-  }
-
-  .tab1, .tab2 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
-    margin: 5px;
-  }
-
-  .alltab{
-    padding: 10px;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
-  }
-
-  .tableau img{
-    width: 253px;
-    padding: 5px;
-    margin: 5px;
-  }
-
-  .expo {
-      display: flex;
-      gap: 20px;
-      align-items: center;
-      justify-content: center;
-  }
-
-  .exposition {
-     width: 50%; 
+  
+  * {
+      margin: 0;
+      padding: 0;
       box-sizing: border-box;
+    }
+    
+    body {
+      color: #333;
+      display: flex;
+      flex-direction: column;
       align-items: center;
+      text-align: center;
+    }
+    
+    .top-image {
+      width: 100%;
+      max-width: 1446px;
+      height: 325px;
+      background-image: url('image/banniere.png');
+      background-size: cover;
+      background-position: center;
+      flex-shrink: 0;
+      display: flex;
+      flex-direction: column;
       justify-content: center;
+      align-items: center;
+    }
+    
+    .top-image h1 {
+      color: #000;
+      background-color: #FAD40B;
+      font-family: 'Loubag';
+      font-size: 48px;
+      width: 575px;
+      height: 66px;
+      top: 0;
+      left: 0;
+      margin-bottom: 20px;
+      margin-top: 40px;
+      text-align: center;
+    }
+    
+    .nav {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      width: auto;
+      height: 50px;
+      flex-shrink: 0;
+      margin-bottom: 77px;
+    }
+    
+    .nav ul {
+      padding: 30px;
+      display: flex;
+      list-style-type: none; 
+      gap: 200px;
   }
-
-  .expositions2 .expo_txt{
-    margin-bottom: 20px;
+  
+    .nav a {
+      color: #000;
+      font-family:'Loubag';
+      font-size: 20px;
+      font-weight: 700;
+      text-decoration: none;
+      line-height: normal;
+    }
+    
+    /* Section Styling */
+    #nousconnaitre, #oeuvres, #expositions {
+      width: 100%;
+      max-width: 1446px;
+      padding: 20px;
+      margin: 20px 0;
+    }
+    
+    #galerie, #artiste, #exposition1, #exposition2 {
+      margin: 10px 0;
+      padding: 20px;
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+    }
+    
+    .galerie {
+      display: flex; 
+      align-items: center; 
+      gap: 70px; 
+      margin: 40px 10%;
+      margin-bottom: 40px;
+      margin-top: 70px;
+    }
+  
+  .element {
+      width: 467px; 
+      height: 276px;
   }
-
-  .expo_img {
-      width: 400px; 
-
+  
+  .galerie_desc {
+      max-width: 507px; 
+  }
+  
+  .notre-galerie {
+      font-family: 'Loubag';
+      font-weight: 400;
+      color: #000000;
+      font-size: 24px;
+      line-height: normal;
+      font-style: normal;
+      margin-bottom: 26px;
+  }
+  
+  .galerie_desc p {
+      font-family: 'Loubag';
+      font-weight: 400;
+      color: #000000;
+      font-size: 16px;
+      text-align: center
+    }
+  
+    .artiste {
+      display: flex;
+     align-items: center;
+     gap: 20px;
+     margin: 40px 10%;
     }
 
-  .rs {
-    display: flex;
-    flex-direction: row;
-  }
+    .artiste h2{
+        color: rgb(0, 0, 0);
+        font-family: Loubag;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 26px;
+    }
 
-  #artiste, #exposition1, #exposition2 {
-    background-color: #fff;
-    border: 2px solid #ddd;
-    height: 300px; 
-  }
+    .artiste p{
+        margin-bottom: 31px;
+    }
 
-  footer {
-    background-color: #ACCEFF;
-    width: 100%;
-    height: 400px;
-  }
+    .rs{
+        display: flex;
+        align-items: center;
+    }
+  
+    .insta{
+      width: 71px;
+      border-radius: 11px;
+    }
 
-  .carte {
-    width: 300px;
-  }
+    .be {
+        width: 60px;
+    }
+  
+    .img_artiste {
+      width: 467px;
+      height: auto;
+    }
+   
+     .tab1, .tab2 {
+      display: flex;
+      flex-direction: row;
+      /* flex-wrap: wrap; */
+      align-items: center;
+      justify-content: center;
+      padding: 5px;
+      margin: 5px;
+    }
+  
+  
+    .tab1, .tab2 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 100%;
+    }
+  
+    .oeuvres {
+      width: 100%;
+      max-width: 1200px; 
+      margin: 0 auto;
+    }
+  
+    .tab1, .tab2 {
+      display: flex;
+      flex-direction: row;
+      /* flex-wrap: wrap; */
+      align-items: center;
+      justify-content: center;
+      padding: 5px;
+      margin: 5px;
+    }
+  
+    .alltab{
+      padding: 10px;
+      align-items: center;
+      justify-content: center;
+      margin: 10px;
+    }
 
-  .bas {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: end;
-  }
+    .alltab p{
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-family: Agrandir;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+  
+    .tableau img{
+      width: 253px;
+      padding: 5px;
+      margin: 55px;
+      margin-bottom: 35px;
+    }
+  
 
-  .contact{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
+    .expo {
+        display: flex;
+        /*width: 80%;*/
+        margin: 40px 10%;
+        gap: 70px;
+        align-items: center;
+        justify-content: center;
+    }
+  
+    .exposition {
+       width: 50%; 
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center
+    }
+    .exposition1 .expo_txt h3{
+        margin-top: 43px;
+        margin-bottom: 8px;
+    }
 
-  .adresse {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-  }
+    .exposition1 .expo_txt h4{
+        margin-bottom: 13px;
+    }
 
-  .form_style{
-    background-color: #FAD40B;
-    border-radius: 10%;
-    height: 20px;
-  }
+    .expositions2 .expo_txt{
+      margin-bottom: 175px;
+    }
+
+    .expositions2 .expo_txt h3{
+        margin-top: 30px;
+        margin-bottom: 8px;
+      }
+
+      .expositions2 .expo_txt h4{
+        margin-bottom: 13px;
+      }
+  
+    .expo_img {
+        width: 400px; 
+        margin-top: 57px;
+      }
+  
+    .rs {
+      display: flex;
+      flex-direction: row;
+    }
+    
+    #artiste, #exposition1, #exposition2 {
+      background-color: #fff;
+      border: 2px solid #ddd;
+      height: 300px; 
+    }
+  
+    footer {
+      background-color: #ACCEFF;
+      width: 100%;
+      height: 609px;
+    }
+
+    footer h2{
+        margin: 47px;
+        font-family: Loubag;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+  
+    .carte {
+      width: 286px;
+    }
+  
+    .bas {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: end;
+      margin: 15px;
+    }
+  
+    .contact{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+
+    .contact h3{
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-family: Loubag;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 65px;
+    }
+
+    .gauche h3{
+        width: 326px;
+        height: 19px;
+    }
+  
+    .adresse {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+    }
+    .adresse p{
+        width: 228px;
+        height: 50px;
+        color: #000;
+        font-family: Agrandir; sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left;
+        margin-left: 20px;
+    }
+  
+    .form_style{
+      background-color: #FAD40B;
+      border: none;
+      margin: 15px;
+      height:  40px;
+      width: 328px;
+      text-align: inherit;
+    }
+
+    .btn{
+        background-color: #FAD40B;
+        border: none;
+        margin: 15px;
+        height:  40px;
+        width: 164px;
+    }
