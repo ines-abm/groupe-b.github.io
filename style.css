@@ -4,11 +4,11 @@ body {
     font-family: 'Agrandir', sans-serif;
     src: url('Agrandir-Regular.otf');
   }
-  .bubblegum-sans-regular {
+  /*.bubblegum-sans-regular {
     font-family: 'Loubag';
     font-weight: 400;
     font-style: normal;
-  }
+  }*/
   
   * {
       margin: 0;
