@@ -369,8 +369,9 @@ footer {
     margin: 15px;
     height: 40px;
     width: 328px;
-    text-align: inherit;
+    text-align: left;
     font-family: 'Agrandir', sans-serif;
+    padding-left: 50px;
 }
 
 .btn {
