@@ -371,7 +371,12 @@ footer {
     width: 328px;
     text-align: left;
     font-family: 'Agrandir', sans-serif;
-    padding-left: 30px;
+}
+
+.form_style,
+textarea {
+    text-align: left;
+    padding-left: 45px;
 }
 
 .btn {
