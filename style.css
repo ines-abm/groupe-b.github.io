@@ -69,10 +69,6 @@ body {
     display: flex;
     list-style-type: none;
     gap: 200px;
-    list-style-type: none;
-    margin: 0;
-    display: flex;
-    justify-content: center;
 }
 
 .nav ul li {
