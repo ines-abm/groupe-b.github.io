@@ -245,7 +245,12 @@ footer h2 {
     margin: 22.5px;
     margin-bottom: 30px;
     height: auto;
+    transition: transform 0.3s ease-in-out;
 }
+
+.tableau img:hover {
+    transform: scale(1.1);
+  }
 
 .expo {
     display: flex;
