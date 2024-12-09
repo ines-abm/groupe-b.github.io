@@ -591,8 +591,9 @@ textarea {
 }
 
     footer {
-        height: auto;
-        padding-bottom: 40px;
+    height: auto;
+    padding: 20px;
+    min-height: 900px;
 }
 
     .gauche h3 {
