@@ -69,6 +69,41 @@ body {
     display: flex;
     list-style-type: none;
     gap: 200px;
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav ul li {
+    margin: 0 15px;
+}
+  
+  .nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    position: relative;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+}
+
+  .nav ul li a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #FAD40B;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+  
+  .nav ul li a:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
 }
 
 .nav a {
