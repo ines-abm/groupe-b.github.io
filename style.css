@@ -400,6 +400,9 @@ textarea {
 @media all and (max-device-width: 480px) 
 
 {
+.nav{
+        margin-bottom: 30px;
+}
   .nav ul {
       flex-direction: column;
       gap: 20px;
@@ -467,6 +470,9 @@ textarea {
       width: 100%;
       max-width: 300px;
   }
+  .exposition1 .expo_txt {
+  margin-bottom: 0px;
+}
 
   footer {
       text-align: center;
@@ -533,6 +539,9 @@ textarea {
         height: auto;
         padding: 10px;
 }
+    .nav{
+        margin-bottom: 30px;
+}
 
     .nav ul {
         flex-direction: column;
@@ -589,6 +598,9 @@ textarea {
     .expo_img {
         width: 100%;
         max-width: 300px;
+}
+.exposition1 .expo_txt {
+  margin-bottom: 0px;
 }
 
   footer {
