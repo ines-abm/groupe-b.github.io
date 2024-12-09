@@ -590,10 +590,10 @@ textarea {
         max-width: 300px;
 }
 
-    footer {
+  footer {
+    text-align: center;
     height: auto;
     padding: 20px;
-    min-height: 900px;
 }
 
     .gauche h3 {
