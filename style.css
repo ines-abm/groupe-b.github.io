@@ -485,12 +485,7 @@ textarea {
     gap: 20px; 
     margin-top: 20px;
 }
-.be {
-  display: block;
-  margin: 0 auto; 
-}
-
-
+    
   .oeuvres .tableau img {
       width: 100%;
       max-width: 200px;
@@ -521,7 +516,7 @@ textarea {
     margin-bottom: 20px;
 }
 
-.adresse {
+  .adresse {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -529,14 +524,13 @@ textarea {
   margin-top: 20px;
 }
 
-.adresse p {
+  .adresse p {
   text-align: center;
 }
 
-
   .contact {
       flex-direction: column;
-  }
+}
 
   .form_style {
       width: 100%;
