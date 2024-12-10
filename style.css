@@ -435,48 +435,49 @@ textarea {
 @media all and (max-device-width: 480px) 
 
 {
-.nav{
-        margin-bottom: 30px;
+  .nav{
+      margin-bottom: 30px;
 }
+    
   .nav ul {
       flex-direction: column;
       gap: 20px;
       padding: 10px;
-  }
+}
 
   .nav a {
       font-size: 18px;
-  }
+}
 
   .top-image {
       height: 200px;
-  }
+}
 
   .top-image h1 {
       font-size: 32px;
       width: auto;
       height: auto;
       padding: 10px;
-  }
+}
 
   .galerie {
       flex-direction: column;
       gap: 20px;
-  }
+}
 
   .element {
       width: 100%;
       max-width: 400px;
-  }
+}
 
   .artiste {
       flex-direction: column;
-  }
+}
 
   .img_artiste {
       width: 100%;
       max-width: 400px;
-  }
+}
 
   .rs {
     display: flex;
@@ -489,17 +490,18 @@ textarea {
   .oeuvres .tableau img {
       width: 100%;
       max-width: 200px;
-  }
+}
 
   .expo {
       flex-direction: column;
       gap: 30px;
-  }
+}
 
   .expo_img {
       width: 100%;
       max-width: 300px;
-  }
+}
+    
   .exposition1 .expo_txt {
   margin-bottom: 0px;
 }
@@ -508,7 +510,7 @@ textarea {
       text-align: center;
       padding: 20px;
       min-height: 900px; 
-  }
+}
 
   .gauche h3 {
     text-align: center;
@@ -536,7 +538,7 @@ textarea {
       width: 100%;
       max-width: 300px;
       margin: 0 auto;
-  }
+}
 
   .form_group {
     margin-bottom: 28px; 
@@ -547,7 +549,7 @@ textarea {
       width: 100%;
       max-width: 200px;
       margin: 20px auto;
-  }
+}
 
   .bas {
     display: flex;
@@ -555,6 +557,8 @@ textarea {
     align-items: center; 
     gap: 10px; 
     text-align: center;
+}
+
 }
 
 @media screen and (max-width: 768px) {
@@ -621,12 +625,13 @@ textarea {
     .expo {
       flex-direction: column;
       gap: 30px;
- }
+}
 
     .expo_img {
         width: 100%;
         max-width: 300px;
 }
+    
 .exposition1 .expo_txt {
   margin-bottom: 0px;
 }
@@ -677,13 +682,13 @@ textarea {
 
     .form_group {
         margin-bottom: 28px; 
- }
+}
 
  .btn {
         width: 100% ;
         max-width: 200px;
         margin: 20px auto;
-    }
+}
 
  .bas {
         display: flex;
@@ -691,5 +696,6 @@ textarea {
         align-items: center; 
         gap: 10px; 
         text-align: center;
-    }
+}
+    
 }
