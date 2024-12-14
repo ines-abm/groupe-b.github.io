@@ -131,19 +131,31 @@
                     <h3>S'inscrire à notre <br> newsletter</h3>
                     <div class="container">
                         <div class="form_area">
-                            <form action="#" onsubmit="affiche_information()" name="information"> 
-                                
+                            <form action="#" onsubmit="affiche_information(event)" name="information">
                                 <div class="form_group">
-                                    <input class="form_style" type="text" placeholder="Nom">
+                                    <input id="nom"  class="form_style" type="text" placeholder="Nom">
                                 </div>
                                 <div class="form_group">
-                                    <input class="form_style" type="text" placeholder="Prénom">
+                                    <input id="prenom" class="form_style" type="text" placeholder="Prénom">
                                 </div>
                                 <div class="form_group">
-                                    <input id="mail" class="form_style" type="email" placeholder="Email">
+                                    <input id="email" class="form_style" type="email" placeholder="Email">
                                 </div>
                                 <button type="submit" class="btn">S'inscrire</button>
                             </form>
+                            <script>
+                                
+                                   function affiche_information(event) {
+                                    event.preventDefault();
+                                   // variables
+                                     let first_name = document.getElementById("nom").value;
+                                     let last_name = document.getElementById("prenom").value;
+                                     let email = document.getElementById("email").value;
+                                     
+                                     //affichage
+                                     alert("Voici les informations que nous avons récupéré: \n\nNom: "+first_name+ "\nPrénom: " +last_name+ "\nEmail: " +email+ "\n\nMerci de votre inscription");
+                                   }
+                                </script>
                         </div>
                     </div>
                 </div>
