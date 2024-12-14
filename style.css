@@ -443,6 +443,7 @@ textarea {
 {
 
   .top-image {
+    height: 200px;
     background-image: url('image-small.jpg');
   }
   .nav{
