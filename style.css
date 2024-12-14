@@ -33,7 +33,7 @@ body {
   width: 100%;
   max-width: 1446px;
   height: 325px;
-  background-image: url('image/banniere.png');
+  background-image: url('image/banniere.webp');
   background-size: cover;
   background-position: center;
   flex-shrink: 0;
