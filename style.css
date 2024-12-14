@@ -449,9 +449,7 @@ textarea {
   display: block;
   margin: 0 auto;
 }
-  .top-image {
-    height: 200px;
-  }
+
   .nav{
     margin-bottom: 30px;
 }
@@ -463,17 +461,6 @@ textarea {
 
   .nav a {
       font-size: 18px;
-  }
-
-  .top-image {
-      height: 200px;
-  }
-
-  .top-image h1 {
-      font-size: 32px;
-      width: auto;
-      height: auto;
-      padding: 10px;
   }
 
   .galerie {
@@ -491,13 +478,6 @@ textarea {
       flex-direction: column;
   }
 
-  .img_artiste {
-      width: 360px;
-      height: 258.925px;
-      max-width: 400px;
-      margin-top: 0px;
-  }
-
   .rs {
     display: flex;
     flex-direction: column;
@@ -512,40 +492,14 @@ textarea {
   height: 37px;
 }
 
-.insta{
-  width: 54px;
-  height: 52px;
-}
-
-
-  .oeuvres .tableau img {
-      width: 241.623px;
-      max-width: 200px;
-  }
-
   .expo {
       flex-direction: column;
       gap: 30px;
   }
 
-  .expo_img {
-      width: 397.293px;
-      height: 161px;
-      max-width: 300px;
-  }
-  .exposition2 .expo_img {
-    margin-top: 10px;
-    width: 365px;
-    height: 278px;
-  }
   .exposition1 .expo_txt {
     margin-top: 43px;
     margin-bottom: 0px;
-  }
-  .exposition1 .expo_img {
-    width: 365px;
-    height: 278px;
-    
   }
 
   footer {
@@ -617,17 +571,7 @@ textarea {
   display: block;
   margin: 0 auto;
 }
-  .top-image {
-     height: 200px;
-  }
-  
-    .top-image h1 {
-        font-size: 32px;
-        width: auto;
-        height: auto;
-        padding: 10px;
-}
-
+ 
     .nav{
         margin-bottom: 30px;
 }
@@ -655,12 +599,6 @@ textarea {
         flex-direction: column-reverse;
 }
 
-    .img_artiste {
-        width: 100%;
-        max-width: 400px;
-        margin-top: 0px;
-}
-
     .rs {
     display: flex;
     flex-direction: column;
@@ -674,21 +612,10 @@ textarea {
     margin: 0 auto; 
 }
 
-    .oeuvres .tableau img {
-    width: 100%;
-    max-width: 200px;
-} 
-
     .expo {
       flex-direction: column;
       gap: 30px;
  }
-
-    .expo_img {
-      width: 397.293px;
-      height: 161px;
-      max-width: 300px;
-}
 
 .exposition1 .expo_txt {
   margin-bottom: 0px;
