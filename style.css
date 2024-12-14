@@ -605,6 +605,7 @@ textarea {
 
 @media screen and (max-width: 768px) {
     .top-image {
+     height: 200px;
     background-image: url('image-small.jpg');
   }
   
