@@ -208,8 +208,10 @@ margin: 0;
 }
 
 .img_artiste {
-  width: 467px;
+  max-width: 100%;
   height: auto;
+  width: auto\9; 
+  object-fit: cover;
 }
 
 .tab1, .tab2 {
@@ -492,10 +494,9 @@ textarea {
   }
 
   .img_artiste {
-      width: 360px;
-      height: 258.925px;
-      max-width: 400px;
-      margin-top: 0px;
+      width: 100%;
+      max-width: 360px;
+      height: auto;
   }
 
   .rs {
@@ -529,9 +530,9 @@ textarea {
   }
 
   .expo_img {
-      width: 397.293px;
-      height: 161px;
-      max-width: 300px;
+      max-width: 100%;
+      height: auto;
+      width: auto\9; 
   }
   .exposition2 .expo_img {
     margin-top: 10px;
@@ -657,8 +658,8 @@ textarea {
 
     .img_artiste {
         width: 100%;
-        max-width: 400px;
-        margin-top: 0px;
+        max-width: 360px;
+        height: auto;
 }
 
     .rs {
@@ -685,9 +686,9 @@ textarea {
  }
 
     .expo_img {
-      width: 397.293px;
-      height: 161px;
-      max-width: 300px;
+      max-width: 100%;
+      height: auto;
+      width: auto\9; 
 }
 
 .exposition1 .expo_txt {
