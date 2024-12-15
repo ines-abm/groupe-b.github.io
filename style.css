@@ -304,9 +304,15 @@ footer h2 {
   justify-content: center;
 }
 
+.exposition1 .expo_img {
+  max-width: 100%; 
+  height: auto; 
+  width: 400px; 
+  margin-top: 57px; 
+}
+
 .exposition1 .expo_txt {
   margin-bottom: 130px;
-
 }
 
 .exposition1 .expo_txt h3 {
@@ -331,10 +337,10 @@ footer h2 {
   margin-bottom: 50px;
 }
 
-
 .expo_img {
-  width: 400px;
-  margin-top: 57px;
+  max-width: 100%; 
+  height: auto; 
+  margin-top: 57px; 
 }
 
 #artiste, #exposition1, #exposition2 {
